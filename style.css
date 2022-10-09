@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:  #cc4670;
+    height: 100%;
+    width: 100%;
+}
+header {
+    background-color: rgb(122, 23, 66); 
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    overflow-y: hidden;
+    padding: 20px;
+    color: whitesmoke;
+}
+.add {
+    font-size: 40px;
+    color: black;
+    margin: 50px;
+}
+.boxes {
+    width: 50%;
+    padding: 20px;
+    border-radius: 20px;
+}
+.register {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    width: 8%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.register:focus {
+    box-shadow: 0 0 0 4px;
+}
+.para {
+    font-size: 40px;
+    color: black;
+    margin: 50px;
+}
+.coding {
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid black;
+    margin: 20px 50px;
+    border-radius: 30px;
+    padding: 10px;
+    width: 70%;
+    
+
+}
+.edit {
+    margin-left: 900px;
+    margin-right: 50px;
+    background-color:green;
+    width: 8%;
+    padding:15px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.edit:focus {
+    box-shadow: 0 0 0 4px;
+}
+.delete {
+    background-color:red;
+    width: 8%;
+    padding:15px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.delete:focus {
+    box-shadow: 0 0 0 4px;
+}
+
